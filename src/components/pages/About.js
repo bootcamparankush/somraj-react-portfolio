@@ -5,7 +5,7 @@ const styles = {
     padding: "10px",
     background: "#222831",
     opacity: "0.9",
-    color: "white",
+    color: "lightblue",
     paddingBottom: "50px",
   },
 };

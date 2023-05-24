@@ -10,7 +10,7 @@ const styles = {
     padding: "20px",
     background: "#222831",
     opacity: "0.9",
-    color: "white",
+    color: "lightblue",
     borderRadius: "5px ",
     paddingBottom: "50px",
   },
@@ -85,7 +85,7 @@ export default function Portfolio() {
             </a>
             <div style={styles.cardStyle} className="card-body">
               <p className="card-text" style={styles.cardBodyStyle}>
-                Tech Blog Web application
+              CMS-style blog site similar to a Wordpress site, where developers can publish their blog posts and comment on other developers’ posts as well. You’ll build this site completely from scratch and deploy it to Heroku. Your app will follow the MVC paradigm in its architectural structure, using Handlebars.js as the templating language, Sequelize as the ORM, and the express-session npm package for authentication.
               </p>
             </div>
             <div style={styles.cardFooterStyle} className="card-footer">
@@ -236,7 +236,9 @@ export default function Portfolio() {
             </a>
             <div className="card-body">
               <p className="card-text" style={styles.cardBodyStyle}>
-                Note Taker
+              AS A small business owner
+I WANT to be able to write and save notes
+SO THAT I can organize my thoughts and keep track of tasks I need to complete
               </p>
             </div>
             <div style={styles.cardFooterStyle} className="card-footer">
